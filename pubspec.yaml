@@ -1,0 +1,73 @@
+name: nearmenalandaoba
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  geolocator: ^5.0.0
+  google_maps_flutter: ^0.5.21+12
+  graphql_flutter: 2.1.1-beta.4
+  http: ^0.12.0+2
+  device_info: ^0.4.1
+  shared_preferences: ^0.5.4+8
+  flutter_google_places: ^0.2.3
+  pk_skeleton: ^0.0.2
+  url_launcher: ^5.4.1
+  font_awesome_flutter: ^8.5.0
+  android_intent: ^0.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+     - arrow.png
+     - banner_1.png
+     - banner_2.png
+     - banner_3.png
+     - banner_4.png
+     - banner_5.png
+     - dj.png
+     - icon_1.png
+     - icon_2.png
+     - icon_3.png
+     - map.png
+     - recent.png
+     - search.png
+     - avatar.png
+     - lable.png
+     - light.json
+     - icons8-user-location.png
+     - imagetest.jpg
+     - onboarding0.png
+     - onboarding1.png
+     - onboarding2.png
+     - nearmelogo.png
+     - marker.png

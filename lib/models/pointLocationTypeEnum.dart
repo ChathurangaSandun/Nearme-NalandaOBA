@@ -1,0 +1,1 @@
+enum PointTypes { Home, Company }
