@@ -279,8 +279,8 @@ class DetailPage extends StatelessWidget {
     });
 
     if (homePoint != null && companyPoint != null) {
-      String origin = "${companyPoint.latitude},${companyPoint.latitude}";
-      String destination = "${homePoint.latitude},${homePoint.latitude}";
+      String origin = "${companyPoint.latitude},${companyPoint.longtitude}";
+      String destination = "${homePoint.latitude},${homePoint.longtitude}";
 
       String url = "https://www.google.com/maps/dir/?api=1&origin=" +
           origin +
